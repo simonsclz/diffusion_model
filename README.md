@@ -24,7 +24,7 @@ Using $\alpha_t = 1 - \beta_t$, we can directly go from $\boldsymbol x_{0}$ to $
 
 $$\boldsymbol x_t = \sqrt{\bar{\alpha}_t} \boldsymbol x_0 + \sqrt{1 - \bar{\alpha}_t} \bar {\boldsymbol{\varepsilon}}_t$$
 
-Here it holds $\overline{\alpha}_t = \prod_{i=1}^{t}{\alpha_i}$ and $\bar {\boldsymbol{\varepsilon}}_t$ is again a standard normally distributed random variable. We can also write the transition density as:
+Here it holds $\overline{\alpha_t} = \prod_{i=1}^{t}{\alpha_i}$ and $\bar {\boldsymbol{\varepsilon}}_t$ is again a standard normally distributed random variable. We can also write the transition density as:
 
 $$q(\boldsymbol x_t | \boldsymbol x_0) = \mathcal N(\boldsymbol x_t; \sqrt{\bar{\alpha}_t}\boldsymbol x_{0}, (1 - \bar \alpha_t) I)$$
 
