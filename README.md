@@ -56,7 +56,7 @@ $$\boldsymbol \mu_q(\boldsymbol x_t, \boldsymbol x_0) = \frac 1 {\sqrt{\alpha_t}
 
 $$\sigma_q^2(t) = \frac {(1 - \alpha_t)(1 - \bar \alpha_{t-1})}{1 - \bar \alpha_t}$$
 
-The missing ingredient here is $\bar {\boldsymbol{\varepsilon}}_t$, the noise that drove us from $\boldsymbol x_0$ to $\boldsymbol x_t$. In the implementation, a *neural network* ${\boldsymbol{\varepsilon}}_{\boldsymbol \theta}$ is used to approximate this quantity. It will receive the noisy picture $\boldsymbol x_t$ and the corresponding time step $t$ as an input and is going to compute an approximation ${\boldsymbol{\varepsilon}}_{\boldsymbol \theta}(\boldsymbol x_t, t)$ for the noise $\bar {\boldsymbol{\varepsilon}}_t$.
+The missing ingredient here is $\bar {\boldsymbol{\varepsilon_t}}$, the noise that drove us from $\boldsymbol x_0$ to $\boldsymbol x_t$. In the implementation, a *neural network* ${\boldsymbol{\varepsilon_{\boldsymbol \theta}}}$ is used to approximate this quantity. It will receive the noisy picture $\boldsymbol x_t$ and the corresponding time step $t$ as an input and is going to compute an approximation ${\boldsymbol{\varepsilon}}_{\boldsymbol \theta}(\boldsymbol x_t, t)$ for the noise $\bar {\boldsymbol{\varepsilon}}_t$.
 
 Using the neural network and the definitions of $\boldsymbol \mu_q(\boldsymbol x_t, \boldsymbol x_0)$ and $\sigma_q^2(t)$, we end up with the following:
 
