@@ -80,4 +80,4 @@ This project uses [JAX](https://docs.jax.dev/en/latest/index.html), a library fo
 
 ## Implementation of the Diffusion Model
 
-**TODO**
+The implementation of the diffusion model can be found in the `diffusion_model.ipynb` notebook.
