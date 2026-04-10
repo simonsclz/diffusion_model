@@ -64,7 +64,7 @@ $$\boldsymbol x_{t-1} = \frac 1 {\sqrt{\alpha_t}} \left(\boldsymbol x_t - \frac 
 
 Here, $\boldsymbol z$ is standard normally distributed. Using this, we can (try to) remove the noise of the noisy images. The goal is to generate new data.
 
-Both, the *forward process* and the *backward process* can be summarized by the following picture.
+Both, the *forward process* and the *backward process* can be summarized by the following picture (taken from [Ghojogh and Ghodsi](https://www.researchgate.net/publication/382128283_Diffusion_Models_Tutorial_and_Survey)).
 
 <center>
     <img src="imgs/diffmodel_process.png">
